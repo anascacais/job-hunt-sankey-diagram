@@ -18,6 +18,6 @@ if __name__ == '__main__':
 
     sankey = JobHuntSankey(data)
     fig = sankey.create_sankey()
-    fig.write_html("notebooks/job-hunt-sankey.html")
+    fig.write_html("docs/job-hunt-sankey.html")
     fig.write_image("notebooks/job-hunt-sankey.png")
     fig.show()
