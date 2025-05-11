@@ -7,6 +7,9 @@ name = "pypi"
 plotly = "*"
 pandas = "*"
 matplotlib = "*"
+job-hunt-sankey = {file = ".", editable = true}
+openpyxl = "*"
+kaleido = "*"
 
 [dev-packages]
 

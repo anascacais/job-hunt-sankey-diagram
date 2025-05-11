@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d7eec0104e7e28a2427d58119d0ec9a2af2d12d5f10a59ea178f55f1cb3b7bef"
+            "sha256": "53e274a2b0af216f4861bbc913974a373b5a6dbb32964033e2233613dbe52844"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -95,6 +95,14 @@
             "markers": "python_version >= '3.8'",
             "version": "==0.12.1"
         },
+        "et-xmlfile": {
+            "hashes": [
+                "sha256:7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa",
+                "sha256:dab3f4764309081ce75662649be815c4c9081e88f0837825f90fd28317d4da54"
+            ],
+            "markers": "python_version >= '3.8'",
+            "version": "==2.0.0"
+        },
         "fonttools": {
             "hashes": [
                 "sha256:0154bd86d9a9e880f6e937e4d99c2139a624428dd9852072e12d7a85c79d611e",
@@ -150,6 +158,22 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==6.5.2"
+        },
+        "job-hunt-sankey": {
+            "editable": true,
+            "file": "."
+        },
+        "kaleido": {
+            "hashes": [
+                "sha256:4670985f28913c2d063c5734d125ecc28e40810141bdb0a46f15b76c1d45f23c",
+                "sha256:845819844c8082c9469d9c17e42621fbf85c2b237ef8a86ec8a8527f98b6512a",
+                "sha256:aa21cf1bf1c78f8fa50a9f7d45e1003c387bd3d6fe0a767cfbbf344b95bdc3a8",
+                "sha256:bb9a5d1f710357d5d432ee240ef6658a6d124c3e610935817b4b42da9c787c05",
+                "sha256:ca6f73e7ff00aaebf2843f73f1d3bacde1930ef5041093fe76b83a15785049a7",
+                "sha256:ecc72635860be616c6b7161807a65c0dbd9b90c6437ac96965831e2e24066552"
+            ],
+            "index": "pypi",
+            "version": "==0.2.1"
         },
         "kiwisolver": {
             "hashes": [
@@ -377,6 +401,15 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==2.0.2"
+        },
+        "openpyxl": {
+            "hashes": [
+                "sha256:5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
+                "sha256:cf0e3cf56142039133628b5acffe8ef0c12bc902d2aadd3e0fe5878dc08d1050"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==3.1.5"
         },
         "packaging": {
             "hashes": [
