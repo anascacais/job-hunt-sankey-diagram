@@ -20,4 +20,4 @@ The Excel file must contain at least the following columns:
 
 ## 📊 The Result
 
-[![Job Hunt Sankey Diagram](notebooks/job-hunt-sankey.png)](https://anascacais.github.io/job-hunt-sankey-diagram/notebooks/job-hunt-sankey.html)
+[![Job Hunt Sankey Diagram](notebooks/job-hunt-sankey.png)](https://anascacais.github.io/job-hunt-sankey-diagram/job-hunt-sankey.html)
