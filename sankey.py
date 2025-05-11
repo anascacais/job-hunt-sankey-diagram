@@ -2,7 +2,7 @@ import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
 
-import matplotlib.cm as cm
+import matplotlib
 import matplotlib.colors as mcolors
 
 
@@ -40,7 +40,7 @@ class JobHuntSankey:
             f'Interview {n+1}' for n in range(self.max_nb_interviews)] + ['Status']]
 
     def _generate_link_colors(self):
-        cmap = cm.get_cmap('Set2', len(self.links))
+        cmap = matplotlib.colormaps.get_cmap('tab20c')
         return [mcolors.to_hex(cmap(i)) for i in range(len(self.links))]
 
     def generate_links(self):
@@ -81,11 +81,13 @@ class JobHuntSankey:
                 thickness=20,
                 line=dict(color="black", width=0.5),
                 label=self.all_labels,
+                color=self._generate_link_colors()
             ),
             link=dict(
                 source=self.links['source_idx'].tolist(),
                 target=self.links['target_idx'].tolist(),
                 value=self.links['value'].tolist(),
+                # color=['lightgray'] * len(self.links)
             )
         )])
         fig.update_layout(title_text=title, font_size=15)
